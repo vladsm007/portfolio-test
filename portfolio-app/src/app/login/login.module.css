@@ -1,0 +1,66 @@
+.container {
+  padding: 1rem;
+  max-width: 400px; /* Narrower for a typical login form */
+  margin: 0 auto; /* Center the form container */
+}
+
+.container h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.intro {
+  margin-bottom: 1.5rem;
+  font-size: 1rem; /* Slightly smaller intro text */
+  color: #555;
+  text-align: center;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.formGroup input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit; /* Ensure consistent font */
+}
+
+.formGroup input:focus {
+  outline: none;
+  border-color: #0070f3; /* Example focus color */
+  box-shadow: 0 0 0 2px rgba(0, 112, 243, 0.2);
+}
+
+.submitButton {
+  padding: 0.75rem 1.5rem;
+  background-color: #0070f3; /* Example Next.js blue */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 0.5rem; /* Add some space before the button */
+  /* align-self: center; Remove this to make button full width or use width: 100% */
+}
+
+.submitButton:hover {
+  background-color: #005bb5;
+}

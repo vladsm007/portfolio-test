@@ -1,0 +1,34 @@
+.container {
+  padding: 1rem;
+}
+
+.container h1 {
+  margin-bottom: 1.5rem; /* Increased margin */
+  font-size: 2rem;
+  border-bottom: 2px solid #eee; /* Example separator */
+  padding-bottom: 0.5rem;
+}
+
+.bio, .skills {
+  margin-bottom: 2rem;
+}
+
+.bio h2, .skills h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.bio p {
+  line-height: 1.6;
+}
+
+.skills ul {
+  list-style-type: disc; /* Or none if you prefer custom icons/styling */
+  padding-left: 20px;
+}
+
+.skills li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}

@@ -1,0 +1,70 @@
+.container {
+  padding: 1rem;
+}
+
+.container h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.intro {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.projectCard {
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius, 8px); /* Using variable from globals.css or default */
+  padding: 1rem;
+  background-color: #f9f9f9;
+  transition: box-shadow 0.3s ease;
+}
+
+.projectCard:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.projectImage {
+  width: 100%;
+  height: auto; /* Or a fixed height like 180px */
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  background-color: #eee; /* Placeholder bg for image */
+}
+
+.projectCard h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.projectCard p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+/*
+.detailsButton {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #0070f3; // Example Next.js blue
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.detailsButton:hover {
+  background-color: #005bb5;
+}
+*/
