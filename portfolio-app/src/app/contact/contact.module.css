@@ -1,0 +1,72 @@
+.container {
+  padding: 1rem;
+  max-width: 700px; /* Constrain width for form readability */
+  margin: 0 auto; /* Center the form container */
+}
+
+.container h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.intro {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  color: #555;
+  text-align: center;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.formGroup input,
+.formGroup textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit; /* Ensure consistent font */
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border-color: #0070f3; /* Example focus color */
+  box-shadow: 0 0 0 2px rgba(0, 112, 243, 0.2);
+}
+
+.formGroup textarea {
+  resize: vertical; /* Allow vertical resize, disable horizontal */
+  min-height: 100px;
+}
+
+.submitButton {
+  padding: 0.75rem 1.5rem;
+  background-color: #0070f3; /* Example Next.js blue */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  align-self: flex-start; /* Align button to the start */
+}
+
+.submitButton:hover {
+  background-color: #005bb5;
+}

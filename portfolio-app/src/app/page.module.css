@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Adjusted for simple centering */
+  align-items: center;
+  padding: 2rem; /* Reduced padding */
+  text-align: center; /* Center text for simple placeholder */
+  flex-grow: 1; /* Ensure it takes available space within the layout */
+}
+
+.main h1 {
+  font-size: 2.5rem; /* Keep heading size */
+  margin-bottom: 0.5rem; /* Adjusted margin */
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #555; /* Example color */
+  margin-bottom: 1.5rem;
+}
+
+/* Add any other styles specific to the new simple Home page if needed */
